@@ -10,6 +10,7 @@ This is a WIP, contributions are welcome!
 
 ## Administration
 * [Autovacuum, explained for engineers](http://blog.postgresql-consulting.com/2015/10/autovacuum-explained-for-engineers-new.html) - A presentation describing autovacuum. Ilya Kosmodemiansky, 2015
+* [Postgres autovacuum is not the enemy](https://www.citusdata.com/blog/2016/11/04/autovacuum-not-the-enemy/) - A blog post explaining the rationale behind autovacuum. Joe Nelson, 2016
 * [PostgreSQL monitoring cheatsheet](https://russ.garrett.co.uk/2015/10/02/postgres-monitoring-cheatsheet/) - A blog post listing some useful metrics when monitoring PostgreSQL. Russ Garett, 2015
 
 ## Internals
