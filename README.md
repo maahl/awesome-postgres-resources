@@ -12,6 +12,7 @@ This is a WIP, contributions are welcome!
 * [Autovacuum, explained for engineers](http://blog.postgresql-consulting.com/2015/10/autovacuum-explained-for-engineers-new.html) - A presentation describing autovacuum. Ilya Kosmodemiansky, 2015
 * [Postgres autovacuum is not the enemy](https://www.citusdata.com/blog/2016/11/04/autovacuum-not-the-enemy/) - A blog post explaining the rationale behind autovacuum. Joe Nelson, 2016
 * [PostgreSQL monitoring cheatsheet](https://russ.garrett.co.uk/2015/10/02/postgres-monitoring-cheatsheet/) - A blog post listing some useful metrics when monitoring PostgreSQL. Russ Garett, 2015
+* [PostgreSQL primary key type analysis](http://gosimple.me/postgresql-primary-key-type-analysis/) - A blog post comparing the performance of primary keys using integer sequences and various UUID generation methods. Adam Brusselback, 2016
 
 ## Internals
 * [A look at how postgres executes a join](http://patshaughnessy.net/2015/11/24/a-look-at-how-postgres-executes-a-tiny-join) - A detailed description of join execution. Pat Shaughnessy, 2015
