@@ -27,3 +27,4 @@ This is a WIP, contributions are welcome!
 
 ## SQL
 * [SQL joins visualizer](http://sql-joins.leopard.in.ua/) - Describe the data you want to get from a join using Venn diagrams, and the corresponding SQL join is generated. Alexey Vasiliev, 2016
+* [PostgreSQL cheat sheet: string functions](http://postgresql-backup.com/postgresql-blog/wp-content/uploads/2016/06/PostgreSQL-Cheat-Sheet_-String-Functions.pdf) - A cheat sheet for string operations in PostgreSQL. PostgreSQL Backup, 2016
