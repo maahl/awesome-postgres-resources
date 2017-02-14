@@ -1,5 +1,5 @@
 # Awesome PostgreSQL resources
-A curated list of awesome PostgreSQL resources to understand PostgreSQL. Inspired by [awesome-postgres](https://github.com/dhamaniasad/awesome-postgres)
+A curated list of awesome resources to understand PostgreSQL. Inspired by [awesome-postgres](https://github.com/dhamaniasad/awesome-postgres)
 
 This is a WIP, contributions are welcome!
 
