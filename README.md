@@ -106,3 +106,7 @@ This is a WIP, contributions are welcome!
 * [PostgreSQL cheat sheet: string functions](http://postgresql-backup.com/postgresql-blog/wp-content/uploads/2016/06/PostgreSQL-Cheat-Sheet_-String-Functions.pdf)  
   A cheat sheet for string operations in PostgreSQL. 
   PostgreSQL Backup, 2016
+
+* [Postgres window magic](http://momjian.us/main/writings/pgsql/window.pdf)  
+  A presentation detailing the possibilities of window functions  
+  Bruce Momjian, 2017
