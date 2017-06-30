@@ -62,6 +62,11 @@ This is a WIP, contributions are welcome!
   A presentation introducing the query planner.  
   Bruce Momjian, 2016
 
+* [Explicit locking](https://www.postgresql.org/docs/current/static/explicit-locking.html)  
+  The section in PostgreSQL docs that explains the various locks available and
+  how they interact with each other.  
+  PostgreSQL, current
+
 * [HOT](https://git.postgresql.org/gitweb/?p=postgresql.git;a=blob;f=src/backend/access/heap/README.HOT;hb=HEAD)  
   The readme in the PostgreSQL source code that describes in great details how
   Heap-Only Tuples (HOT) work.  
@@ -73,10 +78,10 @@ This is a WIP, contributions are welcome!
   the different indexes in PostgreSQL store data.  
   Heikki Linnakangas, 2016
 
-* [Explicit locking](https://www.postgresql.org/docs/current/static/explicit-locking.html)  
-  The section in PostgreSQL docs that explains the various locks available and
-  how they interact with each other.  
-  PostgreSQL, current
+* [Introduction to MemoryContexts](http://blog.pgaddict.com/posts/introduction-to-memory-contexts)  
+  A blog post explaining the rationale behind `palloc`, postgres' replacement of
+  `malloc`.
+  Tomas Vondra, 2014
 
 * [PostgreSQL internals through pictures](https://momjian.us/main/writings/pgsql/internalpics.pdf)  
   A presentation doing a broad overview of PostgreSQL internals.  
