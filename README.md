@@ -81,6 +81,7 @@ This is a WIP, contributions are welcome!
 * [Introduction to MemoryContexts](http://blog.pgaddict.com/posts/introduction-to-memory-contexts)  
   [AllocationSet internals](http://blog.pgaddict.com/posts/allocation-set-internals)  
   [Examples of palloc overhead](http://blog.pgaddict.com/posts/palloc-overhead-examples)  
+  [How much benefit do we get from Allocation set?](http://blog.pgaddict.com/posts/how-much-benefit-do-we-get-from-allocation-set)  
   A series of blog posts explaining the rationale behind `palloc` (postgres'
   replacement of `malloc`), how to use it and its consequences on
   performance.  
