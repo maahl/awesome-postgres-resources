@@ -79,8 +79,11 @@ This is a WIP, contributions are welcome!
   Heikki Linnakangas, 2016
 
 * [Introduction to MemoryContexts](http://blog.pgaddict.com/posts/introduction-to-memory-contexts)  
-  A blog post explaining the rationale behind `palloc`, postgres' replacement of
-  `malloc`.
+  [AllocationSet internals](http://blog.pgaddict.com/posts/allocation-set-internals)  
+  [Examples of palloc overhead](http://blog.pgaddict.com/posts/palloc-overhead-examples)  
+  A series of blog posts explaining the rationale behind `palloc` (postgres'
+  replacement of `malloc`), how to use it and its consequences on
+  performance.  
   Tomas Vondra, 2014
 
 * [PostgreSQL internals through pictures](https://momjian.us/main/writings/pgsql/internalpics.pdf)  
