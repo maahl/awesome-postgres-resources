@@ -6,6 +6,7 @@ This is a WIP, contributions are welcome!
 ## Contents
 
 * [Administration](#administration)
+* [Extensions](#extensions)
 * [Internals](#internals)
 * [SQL](#sql)
 
@@ -35,6 +36,16 @@ This is a WIP, contributions are welcome!
   A blog post comparing the performance of primary keys using integer sequences
   and various UUID generation methods.  
   Adam Brusselback, 2016
+
+## Extensions
+
+* [Writing Postgres extensions - the basics](http://big-elephants.com/2015-10/writing-postgres-extensions-part-i/)  
+  [Writing Postgres extensions - types and operators](http://big-elephants.com/2015-10/writing-postgres-extensions-part-ii/)  
+  [Writing Postgres extensions - debugging](http://big-elephants.com/2015-10/writing-postgres-extensions-part-iii/)  
+  [Writing Postgres extensions - testing](http://big-elephants.com/2015-11/writing-postgres-extensions-part-iv/)  
+  [Writing Postgres extensions - code organization and versioning](http://big-elephants.com/2015-11/writing-postgres-extensions-part-v/)  
+  A series of blog posts that explain in details how to code your own extensions
+  Manuel Kniep and adjust GmbH, 2015
 
 ## Internals
 
@@ -107,11 +118,6 @@ This is a WIP, contributions are welcome!
   json and jsonb formats.  
   pozs, 2014
 
-* [SQL joins visualizer](http://sql-joins.leopard.in.ua/)  
-  Describe the data you want to get from a join using Venn diagrams, and the
-  corresponding SQL join is generated.  
-  Alexey Vasiliev, 2016
-
 * [PostgreSQL cheat sheet: string functions](http://postgresql-backup.com/postgresql-blog/wp-content/uploads/2016/06/PostgreSQL-Cheat-Sheet_-String-Functions.pdf)  
   A cheat sheet for string operations in PostgreSQL. 
   PostgreSQL Backup, 2016
@@ -119,3 +125,8 @@ This is a WIP, contributions are welcome!
 * [Postgres window magic](http://momjian.us/main/writings/pgsql/window.pdf)  
   A presentation detailing the possibilities of window functions  
   Bruce Momjian, 2017
+
+* [SQL joins visualizer](http://sql-joins.leopard.in.ua/)  
+  Describe the data you want to get from a join using Venn diagrams, and the
+  corresponding SQL join is generated.  
+  Alexey Vasiliev, 2016
