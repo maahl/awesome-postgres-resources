@@ -44,7 +44,7 @@ This is a WIP, contributions are welcome!
   [Writing Postgres extensions - debugging](http://big-elephants.com/2015-10/writing-postgres-extensions-part-iii/)  
   [Writing Postgres extensions - testing](http://big-elephants.com/2015-11/writing-postgres-extensions-part-iv/)  
   [Writing Postgres extensions - code organization and versioning](http://big-elephants.com/2015-11/writing-postgres-extensions-part-v/)  
-  A series of blog posts that explain in details how to code your own extensions
+  A series of blog posts that explain in details how to code your own extensions  
   Manuel Kniep and adjust GmbH, 2015
 
 ## Internals
