@@ -49,6 +49,12 @@ This is a WIP, contributions are welcome!
 
 ## Internals
 
+* [Access Path Selection in a Relational Database Management System](https://s3.amazonaws.com/academia.edu.documents/12453180/selinger-etal-1979.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1524048486&Signature=2e%2Fpd9Wk57zalZ7lwQAixWYl%2FPg%3D&response-content-disposition=inline%3B%20filename%3DAccess_path_selection_in_a_relational_da.pdf)  
+  The original article describing the query optimizer dynamic algorithm for join
+  order selection, originally implemented in System R but still used in many
+  DBMSs, including PostgreSQL.  
+  Patricia Selinger et al., 1976
+
 * [A look at how postgres executes a join](http://patshaughnessy.net/2015/11/24/a-look-at-how-postgres-executes-a-tiny-join)  
   A detailed description of join execution.  
   Pat Shaughnessy, 2015
