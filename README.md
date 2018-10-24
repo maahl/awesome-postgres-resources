@@ -55,6 +55,11 @@ This is a WIP, contributions are welcome!
   DBMSs, including PostgreSQL.  
   Patricia Selinger et al., 1976
 
+* [All you need to know about sorting in Postgres](https://madusudanan.com/blog/all-you-need-to-know-about-sorting-in-postgres/#DiskMerge)  
+  An overview of the sorting algorithms used in PostgreSQL and how PostgreSQL
+  chooses which one to use.  
+  Madusudanan.B.N, 2016
+
 * [A look at how postgres executes a join](http://patshaughnessy.net/2015/11/24/a-look-at-how-postgres-executes-a-tiny-join)  
   A detailed description of join execution.  
   Pat Shaughnessy, 2015
