@@ -39,6 +39,10 @@ This is a WIP, contributions are welcome!
 
 ## Extensions
 
+* [Postgresql hooks documentaiton](https://github.com/AmatanHead/psql-hooks)  
+  A github repository documenting all function hooks in PostgreSQL
+  Begishev Nikita and Goncharov Vladimir, 2018
+
 * [Writing Postgres extensions - the basics](http://big-elephants.com/2015-10/writing-postgres-extensions-part-i/)  
   [Writing Postgres extensions - types and operators](http://big-elephants.com/2015-10/writing-postgres-extensions-part-ii/)  
   [Writing Postgres extensions - debugging](http://big-elephants.com/2015-10/writing-postgres-extensions-part-iii/)  
