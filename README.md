@@ -6,7 +6,7 @@ This is a WIP, contributions are welcome!
 ## Contents
 
 * [Administration](#administration)
-* [Extensions](#extensions)
+* [Hacking postgres](#hacking_postgres)
 * [Internals](#internals)
 * [SQL](#sql)
 
@@ -37,11 +37,36 @@ This is a WIP, contributions are welcome!
   and various UUID generation methods.  
   Adam Brusselback, 2016
 
-## Extensions
+## Hacking postgres
+
+* [Hacking PostgreSQL](https://www.postgresql.eu/events/pgconfeu2018/sessions/session/2058/slides/96/hackingpg-present.pdf)  
+  A conference presentation that gives an overview of PostgreSQL's source code,
+  some important structures, and other useful info to get started in hacking
+  postgres.  
+  Stephen Frost, 2018
+
+* [Introduction to MemoryContexts](http://blog.pgaddict.com/posts/introduction-to-memory-contexts)  
+  [AllocationSet internals](http://blog.pgaddict.com/posts/allocation-set-internals)  
+  [Examples of palloc overhead](http://blog.pgaddict.com/posts/palloc-overhead-examples)  
+  [How much benefit do we get from Allocation set?](http://blog.pgaddict.com/posts/how-much-benefit-do-we-get-from-allocation-set)  
+  A series of blog posts explaining the rationale behind `palloc` (postgres'
+  replacement of `malloc`), how to use it and its consequences on
+  performance.  
+  Tomas Vondra, 2014
 
 * [Postgresql hooks documentaiton](https://github.com/AmatanHead/psql-hooks)  
-  A github repository documenting all function hooks in PostgreSQL
+  A github repository documenting all function hooks in PostgreSQL  
   Begishev Nikita and Goncharov Vladimir, 2018
+
+* [Review of Patch Reviewing](https://www.postgresql.eu/events/pgconfeu2018/sessions/session/2066/slides/95/patch_review-present.pdf)  
+  An explanation of how to review a patch in postgres  
+  Stephen Frost, 2018
+
+* [Serverside Programming in C](http://hlinnaka.iki.fi/presentations/PGConf.eu-Serverside-Programming-in-C.pdf)  
+  A good intro to get started in hacking postgres, including how to manage
+  memory, memory management, string handling, error reporting, useful
+  structures, etc.  
+  Heikki Linnakangas, 2018
 
 * [Writing Postgres extensions - the basics](http://big-elephants.com/2015-10/writing-postgres-extensions-part-i/)  
   [Writing Postgres extensions - types and operators](http://big-elephants.com/2015-10/writing-postgres-extensions-part-ii/)  
@@ -59,7 +84,7 @@ This is a WIP, contributions are welcome!
   DBMSs, including PostgreSQL.  
   Patricia Selinger et al., 1976
 
-* [All you need to know about sorting in Postgres](https://madusudanan.com/blog/all-you-need-to-know-about-sorting-in-postgres/#DiskMerge)  
+* [All you need to know about sorting in Postgres](https://madusudanan.com/blog/all-you-need-to-know-about-sorting-in-postgres/)  
   An overview of the sorting algorithms used in PostgreSQL and how PostgreSQL
   chooses which one to use.  
   Madusudanan.B.N, 2016
@@ -103,15 +128,6 @@ This is a WIP, contributions are welcome!
   available](https://www.youtube.com/watch?v=W6B8-srOsrs)) that describes how
   the different indexes in PostgreSQL store data.  
   Heikki Linnakangas, 2016
-
-* [Introduction to MemoryContexts](http://blog.pgaddict.com/posts/introduction-to-memory-contexts)  
-  [AllocationSet internals](http://blog.pgaddict.com/posts/allocation-set-internals)  
-  [Examples of palloc overhead](http://blog.pgaddict.com/posts/palloc-overhead-examples)  
-  [How much benefit do we get from Allocation set?](http://blog.pgaddict.com/posts/how-much-benefit-do-we-get-from-allocation-set)  
-  A series of blog posts explaining the rationale behind `palloc` (postgres'
-  replacement of `malloc`), how to use it and its consequences on
-  performance.  
-  Tomas Vondra, 2014
 
 * [PostgreSQL internals through pictures](https://momjian.us/main/writings/pgsql/internalpics.pdf)  
   A presentation doing a broad overview of PostgreSQL internals.  
