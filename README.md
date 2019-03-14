@@ -95,7 +95,7 @@ This is a WIP, contributions are welcome!
 * [Backend flowchart](https://www.postgresql.org/developer/backend/)  
   A chart describing the role of each component in the backend. Don't forget to
   also check the [full
-  index](https://wiki.postgresql.org/wiki/Backend_flowchart#parser) that is
+  index](https://wiki.postgresql.org/wiki/Backend_flowchart) that is
   associated to it.  
   PostgreSQL, 2012
 
