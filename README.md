@@ -54,7 +54,7 @@ This is a WIP, contributions are welcome!
   performance.  
   Tomas Vondra, 2014
 
-* [Postgresql hooks documentaiton](https://github.com/AmatanHead/psql-hooks)  
+* [Postgresql hooks documentation](https://github.com/AmatanHead/psql-hooks)  
   A github repository documenting all function hooks in PostgreSQL  
   Begishev Nikita and Goncharov Vladimir, 2018
 
