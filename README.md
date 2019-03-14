@@ -63,9 +63,8 @@ This is a WIP, contributions are welcome!
   Stephen Frost, 2018
 
 * [Serverside Programming in C](http://hlinnaka.iki.fi/presentations/PGConf.eu-Serverside-Programming-in-C.pdf)  
-  A good intro to get started in hacking postgres, including how to manage
-  memory, memory management, string handling, error reporting, useful
-  structures, etc.  
+  A good intro to get started in hacking postgres, including memory management,
+  string handling, error reporting, useful structures, etc.  
   Heikki Linnakangas, 2018
 
 * [Writing Postgres extensions - the basics](http://big-elephants.com/2015-10/writing-postgres-extensions-part-i/)  
